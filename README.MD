@@ -7,4 +7,4 @@ Este projeto está sendo realizado baseado no conteúdo da NLW Together, da Rock
 - React - (Estados, Router, Hooks, Contexts).
 - SASS - alguns conceitos.
 - Typescript - alguns conceitos.
-- Firebase - alguns conceitos.
+- Firebase - (autenticação, criação de dados, regras).
