@@ -41,6 +41,12 @@ export function Home() {
       return;
     }
 
+    // verifica se existe o objeto endedAt, se tiver, o usuário não será redirecionado
+    if (roomRef.val().endedAt) {
+      alert('Room already closed.');
+      return;
+    }
+
     // se tudo der certo, o usuário será redirecionado para a sala
     history.push(`/rooms/${ roomCode }`);
   }
